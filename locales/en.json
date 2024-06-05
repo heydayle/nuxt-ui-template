@@ -1,0 +1,16 @@
+{
+  "He_tb_management": "Management",
+  "He_tb_translator": "Translator",
+  "He_txt_usage": "Usage",
+  "He_dr_txt_acc_premium": "Premium",
+  "He_dr_txt_acc_standard": "Standard",
+  "He_dr_btn_log_out": "Log Out",
+  "ms_01_ph_se_name": "Enter webtoon name",
+  "ms_01_ph_se_time": "Last Updated Time",
+  "ms_01_ph_se_lg": "Choose Language",
+  "ms_01_txt_tb_name": "Webtoon Name",
+  "ms_01_mm_trns_lg": "Translation Language",
+  "ms_01_txt_tb_episode": "Total Episodes",
+  "ms_01_txt_tb_time": "Last Updated Time",
+  "ms_01_txt_se_no_data": "No data found"
+}

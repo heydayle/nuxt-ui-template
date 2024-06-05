@@ -1,0 +1,89 @@
+.swal2-container {
+  .ec-toast {
+    .swal2-html-container {
+      .toast-title {
+        @apply text-text-primary
+      }
+      .toast-message {
+        @apply text-text-primary
+      }
+    }
+    .swal2-confirm {
+      @apply focus:ring-0 active:ring-0 focus:outline-none active:outline-none rounded-full transition-all duration-300
+    }
+    &.error {
+      .swal2-html-container {
+        .toast-title {
+          @apply text-text-error
+        }
+      }
+      .swal2-confirm:hover {
+        background: theme('colors.utility-error-100') !important;
+      }
+      .swal2-confirm:before {
+        background: theme('colors.utility-error-500');
+      }
+      @apply bg-utility-error-50 ring-1 ring-border-error
+    }
+    &.warning {
+      .swal2-html-container {
+        .toast-title {
+          @apply text-text-warning
+        }
+      }
+      .swal2-confirm:hover {
+        background: theme('colors.utility-warning-100') !important;
+      }
+      .swal2-confirm:before {
+        background: theme('colors.utility-warning-500');
+      }
+      @apply bg-utility-warning-50 ring-1 ring-border-warning
+    }
+    &.success {
+      .swal2-html-container {
+        .toast-title {
+          @apply text-text-success
+        }
+      }
+      .swal2-confirm:hover {
+        background: theme('colors.utility-success-100') !important;
+      }
+      .swal2-confirm:before {
+        background: theme('colors.utility-success-500');
+      }
+      @apply bg-utility-success-50 ring-1 ring-border-success
+    }
+    &.info {
+      .swal2-html-container {
+        .toast-title {
+          @apply text-text-system-brand
+        }
+      }
+      .swal2-confirm:hover {
+        background: theme('colors.utility-brand-100') !important;
+      }
+      .swal2-confirm:before {
+        background: theme('colors.utility-brand-500');
+      }
+      @apply bg-utility-brand-50 ring-1 ring-border-system-brand
+    }
+    &.secondary {
+      .swal2-icon, .swal2-image {
+        @apply w-0 h-0 m-0 mb-2
+      }
+      .swal2-html-container {
+        .toast-title {
+          @apply text-text-secondary
+        }
+        margin: 0 !important;
+      }
+      .swal2-confirm:hover {
+        background: theme('colors.utility-gray-100') !important;
+      }
+      .swal2-confirm:before {
+        background: theme('colors.utility-gray-500');
+      }
+      @apply bg-utility-gray-50 ring-1 ring-border-primary
+    }
+  }
+}

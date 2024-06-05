@@ -1,0 +1,82 @@
+{
+  "errors": {
+    "invalidType": "예상된 {expected}을(를) 받았습니다: {received}",
+    "invalidTypeReceivedUndefined": "필수",
+    "invalidLiteral": "잘못된 값, 예상된 값: {expected}",
+    "unrecognizedKeys": "키가 인식되지 않음: {keys}",
+    "invalidUnion": "잘못된 값",
+    "invalidUnionDiscriminator": "잘못된 구분값. 예상된 값: {options}",
+    "invalidEnumValue": "잘못된 옵션. 예상된 값: {options}",
+    "invalidArguments": "잘못된 함수 매개변수",
+    "invalidReturnType": "잘못된 함수 반환 값",
+    "invalidDate": "잘못된 날짜",
+    "custom": "잘못된 값",
+    "invalidIntersectionTypes": "교차 결과를 병합할 수 없습니다",
+    "notMultipleOf": "숫자는 {multipleOf}의 배수여야 합니다",
+    "notFinite": "숫자는 유한해야 합니다",
+    "invalidString": {
+      "email": "잘못된 이메일",
+      "url": "잘못된 URL",
+      "uuid": "잘못된 UUID",
+      "cuid": "잘못된 CUID",
+      "regex": "잘못된 값",
+      "datetime": "잘못된 날짜 및 시간",
+      "startsWith": "잘못된 값: {startsWith}로 시작해야 합니다",
+      "endsWith": "잘못된 값: {endsWith}로 끝나야 합니다"
+    },
+    "tooSmall": {
+      "array": {
+        "exact": "{minimum}개의 요소를 삽입하세요",
+        "inclusive": "최소 {minimum}개의 요소를 삽입하세요",
+        "notInclusive": "{minimum}개 이상의 요소를 삽입하세요"
+      },
+      "string": {
+        "exact": "길이는 {minimum}글자여야 합니다",
+        "inclusive": "최소 {minimum}글자 이상이어야 합니다",
+        "notInclusive": "{minimum}글자 이상을 삽입하세요"
+      },
+      "number": {
+        "exact": "값은 {minimum}이어야 합니다",
+        "inclusive": "{minimum} 이상의 값을 삽입하세요",
+        "notInclusive": "{minimum}보다 큰 값을 삽입하세요"
+      },
+      "set": {
+        "exact": "잘못된 값",
+        "inclusive": "잘못된 값",
+        "notInclusive": "잘못된 값"
+      },
+      "date": {
+        "exact": "날짜는 {minimum}이어야 합니다",
+        "inclusive": "날짜는 최소 {minimum} 이후여야 합니다",
+        "notInclusive": "날짜는 {minimum} 이후여야 합니다"
+      }
+    },
+    "tooBig": {
+      "array": {
+        "exact": "{maximum}개 이하의 요소를 삽입하세요",
+        "inclusive": "최대 {maximum}개의 요소를 삽입하세요",
+        "notInclusive": "{maximum}개 미만의 요소를 삽입하세요"
+      },
+      "string": {
+        "exact": "길이는 {minimum}글자여야 합니다",
+        "inclusive": "최대 {maximum}글자까지 가능합니다",
+        "notInclusive": "{maximum}글자 미만을 삽입하세요"
+      },
+      "number": {
+        "exact": "값은 {maximum}이어야 합니다",
+        "inclusive": "{maximum} 이하의 값을 삽입하세요",
+        "notInclusive": "{maximum}보다 작은 값을 삽입하세요"
+      },
+      "set": {
+        "exact": "잘못된 값",
+        "inclusive": "잘못된 값",
+        "notInclusive": "잘못된 값"
+      },
+      "date": {
+        "exact": "날짜는 {maximum}이어야 합니다",
+        "inclusive": "날짜는 최대 {maximum} 이전이어야 합니다",
+        "notInclusive": "날짜는 {maximum} 이전이어야 합니다"
+      }
+    }
+  }
+}

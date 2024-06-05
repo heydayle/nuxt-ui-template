@@ -1,0 +1,81 @@
+.swal2-container {
+  .ec-toast {
+    &.swal2-popup {
+      display: flex !important;
+      @apply px-4 py-3 rounded-xl
+    }
+    .swal2-icon, .swal2-image {
+      @apply w-5 h-5 m-0 mb-2 mt-0.5
+    }
+    .swal2-title {
+      display: none !important;
+    }
+    .swal2-html-container {
+      .toast-title {
+        @apply font-medium text-sm pb-2
+      }
+      .toast-message {
+        @apply font-normal text-xs
+      }
+      width: 100%;
+      margin: 0 1rem !important;
+    }
+    .swal2-actions {
+      button {
+        @apply focus:ring-0 active:outline-none
+      }
+      padding: 0 !important;
+      display: block !important;
+      width: 30px !important;
+      height: 30px !important;
+      position: relative;
+      top: -12px;
+      right: -4px
+    }
+    .swal2-confirm {
+      display: block;
+      background: transparent !important;
+      color: transparent;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      font-size: 0;
+      margin: 0 !important;
+    }
+    .swal2-confirm:before {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translateX(50%) translateY(-50%);
+      content: '';
+      display: inline-block;
+      -webkit-mask: url('~/assets/icons/monotone/close.svg') no-repeat 50% 50%;
+      mask: url('~/assets/icons/monotone/close.svg') no-repeat 50% 50%;
+      -webkit-mask-size: cover;
+      width: 20px;
+      height: 18px;
+    }
+    .swal2-confirm:before {
+      background: #fff;
+    }
+    .swal2-cancel {
+      @apply px-4 py-2 m-0 rounded-lg text-black flex-1
+    }
+
+    &.error {
+      .swal2-confirm {
+        // style
+      }
+    }
+    &.warning {
+      .swal2-confirm {
+        // style
+      }
+    }
+    &.success {
+      .swal2-confirm {
+        // style
+      }
+    }
+  }
+}

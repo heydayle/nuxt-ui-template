@@ -1,0 +1,82 @@
+{
+  "errors": {
+    "invalidType": "Dữ liệu không hợp lệ. Mong đợi {expected}, nhận {received}",
+    "invalidTypeReceivedUndefined": "Bắt buộc",
+    "invalidLiteral": "Giá trị không hợp lệ, mong đợi {expected}",
+    "unrecognizedKeys": "Khóa không được nhận dạng: {keys}",
+    "invalidUnion": "Giá trị không hợp lệ",
+    "invalidUnionDiscriminator": "Giá trị phân biệt không hợp lệ. Mong đợi {options}",
+    "invalidEnumValue": "Lựa chọn không hợp lệ. Mong đợi: {options}",
+    "invalidArguments": "Tham số hàm không hợp lệ",
+    "invalidReturnType": "Giá trị trả về của hàm không hợp lệ",
+    "invalidDate": "Ngày không hợp lệ",
+    "custom": "Giá trị không hợp lệ",
+    "invalidIntersectionTypes": "Kết quả giao cắt không thể hợp nhất",
+    "notMultipleOf": "Số phải là bội số của {multipleOf}",
+    "notFinite": "Số phải là số hữu hạn",
+    "invalidString": {
+      "email": "Email không hợp lệ",
+      "url": "URL không hợp lệ",
+      "uuid": "UUID không hợp lệ",
+      "cuid": "CUID không hợp lệ",
+      "regex": "Giá trị không hợp lệ",
+      "datetime": "Ngày giờ không hợp lệ",
+      "startsWith": "Giá trị không hợp lệ: phải bắt đầu bằng {startsWith}",
+      "endsWith": "Giá trị không hợp lệ: phải kết thúc bằng {endsWith}"
+    },
+    "tooSmall": {
+      "array": {
+        "exact": "Vui lòng chèn {minimum} phần tử",
+        "inclusive": "Vui lòng chèn ít nhất {minimum} phần tử",
+        "notInclusive": "Vui lòng chèn nhiều hơn {minimum} phần tử"
+      },
+      "string": {
+        "exact": "Độ dài phải là {minimum} ký tự",
+        "inclusive": "Độ dài tối thiểu là {minimum} ký tự",
+        "notInclusive": "Vui lòng chèn nhiều hơn {minimum} ký tự"
+      },
+      "number": {
+        "exact": "Giá trị phải là {minimum}",
+        "inclusive": "Vui lòng chèn một giá trị lớn hơn hoặc bằng {minimum}",
+        "notInclusive": "Vui lòng chèn một giá trị lớn hơn {minimum}"
+      },
+      "set": {
+        "exact": "Giá trị không hợp lệ",
+        "inclusive": "Giá trị không hợp lệ",
+        "notInclusive": "Giá trị không hợp lệ"
+      },
+      "date": {
+        "exact": "Ngày phải là {minimum}",
+        "inclusive": "Ngày phải sau hoặc bằng {minimum}",
+        "notInclusive": "Ngày phải sau {minimum}"
+      }
+    },
+    "tooBig": {
+      "array": {
+        "exact": "Vui lòng chèn {maximum} phần tử",
+        "inclusive": "Vui lòng chèn tối đa {maximum} phần tử",
+        "notInclusive": "Vui lòng chèn ít hơn {maximum} phần tử"
+      },
+      "string": {
+        "exact": "Độ dài phải là {minimum} ký tự",
+        "inclusive": "Độ dài tối đa là {maximum} ký tự",
+        "notInclusive": "Vui lòng chèn ít hơn {maximum} ký tự"
+      },
+      "number": {
+        "exact": "Giá trị phải là {maximum}",
+        "inclusive": "Vui lòng chèn một giá trị nhỏ hơn hoặc bằng {maximum}",
+        "notInclusive": "Vui lòng chèn một giá trị nhỏ hơn {maximum}"
+      },
+      "set": {
+        "exact": "Giá trị không hợp lệ",
+        "inclusive": "Giá trị không hợp lệ",
+        "notInclusive": "Giá trị không hợp lệ"
+      },
+      "date": {
+        "exact": "Ngày phải là {maximum}",
+        "inclusive": "Ngày phải trước hoặc bằng {maximum}",
+        "notInclusive": "Ngày phải trước {maximum}"
+      }
+    }
+  }
+}

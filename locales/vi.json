@@ -1,0 +1,16 @@
+{
+  "He_tb_management": "Quản lý",
+  "He_tb_translator": "Dịch thuật",
+  "He_txt_usage": "Sử dụng",
+  "He_dr_txt_acc_premium": "Cao cấp",
+  "He_dr_txt_acc_standard": "Thường",
+  "He_dr_btn_log_out": "Đăng xuất",
+  "ms_01_ph_se_name": "Nhập tên truyện",
+  "ms_01_ph_se_time": "Thời gian cập nhật lần cuối",
+  "ms_01_ph_se_lg": "Chọn ngôn ngữ",
+  "ms_01_txt_tb_name": "Tên truyện",
+  "ms_01_mm_trns_lg": "Ngôn ngữ dịch",
+  "ms_01_txt_tb_episode": "Tổng số tập",
+  "ms_01_txt_tb_time": "Lần cuối cập nhật",
+  "ms_01_txt_se_no_data": "Không có kết quả tìm kiếm"
+}

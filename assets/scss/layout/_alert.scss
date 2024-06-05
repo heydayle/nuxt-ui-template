@@ -1,0 +1,44 @@
+
+.swal2-container {
+  .ec-alert {
+    &.swal2-popup {
+      @apply p-6 rounded-2xl
+    }
+    .swal2-icon, .swal2-image {
+      @apply w-12 h-12 m-0 mb-2
+    }
+    .swal2-title {
+      @apply text-left p-0 text-lg font-semibold
+    }
+    .swal2-html-container {
+      @apply text-left m-0 py-2 text-sm
+    }
+    .swal2-actions {
+      button {
+        @apply focus:ring-0
+      }
+      @apply text-center w-full justify-center space-x-2
+    }
+    .swal2-confirm {
+      @apply px-4 py-2 rounded-lg flex-1
+    }
+    .swal2-cancel {
+      @apply px-4 py-2 m-0 rounded-lg text-black flex-1
+    }
+    .error {
+      .swal2-confirm {
+        // style
+      }
+    }
+    .warning {
+      .swal2-confirm {
+        // style
+      }
+    }
+    .success {
+      .swal2-confirm {
+        // style
+      }
+    }
+  }
+}

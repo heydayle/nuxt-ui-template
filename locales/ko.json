@@ -1,0 +1,16 @@
+{
+  "He_tb_management": "Management",
+  "He_tb_translator": "Translator",
+  "He_txt_usage": "사용량",
+  "He_dr_txt_acc_premium": "고급",
+  "He_dr_txt_acc_standard": "일반",
+  "He_dr_btn_log_out": "로그아웃",
+  "ms_01_ph_se_name": "웹툰 이름을 입력하세요.",
+  "ms_01_ph_se_time": "업데이트 시간",
+  "ms_01_ph_se_lg": "언어 선택",
+  "ms_01_txt_tb_name": "웹툰 이름",
+  "ms_01_mm_trns_lg": "번역 언어",
+  "ms_01_txt_tb_episode": "총 에피소드",
+  "ms_01_txt_tb_time": "업데이트 시간",
+  "ms_01_txt_se_no_data": "데이터가 없습니다."
+}
