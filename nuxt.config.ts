@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/ui',
     'nuxt-headlessui',
-    '@hebilicious/vue-query-nuxt',
+    // '@hebilicious/vue-query-nuxt',
     'nuxt-local-iconify',
     '@nuxt/test-utils/module',
     '@nuxtjs/google-fonts',
