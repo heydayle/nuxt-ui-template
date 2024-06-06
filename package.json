@@ -1,16 +1,16 @@
 {
-  "name": "@echomakr/web-base",
+  "name": "nuxt-3-starter",
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "This is the base package for the web applications in the project",
+  "description": "This is template built-in Nuxt 3",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate-orval": "rm -rf ./api/hooks && rm -rf ./api/models && wget -O api-docs.json https://api-at.dev.ycomm.work/v3/api-docs && orval && rm -rf api-docs.json"
+    "generate-orval": "rm -rf ./api/hooks && rm -rf ./api/models && wget -O api-docs.json https://api.test && orval && rm -rf api-docs.json"
   },
   "dependencies": {
     "@hebilicious/vue-query-nuxt": "^0.3.0",
